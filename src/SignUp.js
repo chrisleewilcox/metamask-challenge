@@ -52,6 +52,7 @@ const SignUp = ({navigation}) => {
             autoCompleteType="email"
             placeholder={'Email'}
             onChangeText={setEmail}
+            secureTextEntry
           />
           <Text style={styles.validationErrorText}>{emailError}</Text>
         </View>
